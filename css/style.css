@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color:#A9A9A9;
+}
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-logo{
+	margin-top: 20px;
+}
+.park-button {
+  float: right;
+  text-decoration:none;
+  width: 220px;
+  height: 38px;
+  background-color:#F0E68C;
+  display: block;
+  text-align:center;
+  line-height: 38px;
+  color:#ffffff;
+
+}
+.park-button:hover {
+  background-color: #A9A9A9;
+   color:#ffffff;
+}
+
+.park-button:active {
+  background-color: #A9A9A9;
+}
+.telephone-address{
+	text-align: center;
+	padding-bottom: 55px;
+}
+.header-navigation{
+  display: flex;
+  margin:35px;
+  padding:0;
+  font-size:0;
+}
+.heading {
+  text-align:center;
+  margin-bottom:5px;
+  color:#F0E68C;
+  font-size:35px;
+
+}
+.header-navigation li{
+  font-size:17px;
+  vertical-align:top;
+  list-style-type:none;
+ flex-grow:1;
+}
+.header-navigation a{
+  color:#fff;
+  text-decoration:none;
+  text-align:center;
+}
+.header-navigation a:hover{
+  background:#F0E68C;
+}
+.features-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.features-column {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 6px;
+  padding-left: 6px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.features-title {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 68px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*!
+  * ===========================================================
+  * BLOG WIDJET
+  * ===========================================================
+  */
+
+.blog-widjet {
+  margin-bottom:30px;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  min-height: 220px;
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 30%;
+  background-image: url('../img/starry_sky2.jpg');
+}
+.blog-widjet__title {
+   margin-top: 16px;
+  margin-bottom:4px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.blog-widjet__content {
+  width: 290px;
+}
+.blog-widjet__link {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #323232;
+  text-decoration: none;
+}
+.blog-widjet__link:hover {
+  color: #e84d37;
+}
+.blog-widjet__link:hover .blog-widjet__link-content {
+  border-bottom: 2px solid rgba(236, 89, 60, 0.3);
+}
+.blog-widjet__link-content {
+  border-bottom: 2px solid #323232;
+}
+
+/*!
+map
+ */
